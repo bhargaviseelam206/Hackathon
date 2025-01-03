@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+    <head><title>create account</title>
+        <style>
+            .main{
+                background-color:aliceblue;
+                border-radius:15px;
+                box-shadow:0 0 2px;
+                padding:10px 20px;
+                transition:transform 0.2s;
+                width:500px;
+                text-align:center;
+            }
+            body{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                font-family:sans-serif;
+                line-height:1.5;
+                min-height:100vh;
+                background:#f3f3f3;
+                flex-direction:column;
+                margin:0;
+                background-image:url("p1.png");
+                background-repeat:no-repeat;
+                background-size: 100% 115%;
+
+            }
+        
+            button{
+                color: white;
+                cursor: pointer;
+                background-color:burlywood;
+                width: 25%;
+                font-size: 16px;
+                padding: 5px;
+                border-radius: 10px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                border: none;
+                }
+            
+
+        </style>
+    </head>
+<body style="text-align:center">
+   <div class="main"> 
+    <h1>Create Account</h1>
+    <form>
+        Username:
+        <input type="text" name="username" >
+        <br>
+        <br>
+        <br>
+        Email id:
+        <input type="text" name="email_id">
+        <br><br>
+        <br>
+        <label for="user-password">
+              Password:
+        </label>
+        
+        <input type="password" name="user-pwd"
+               id="user-password">
+        <br><br>
+        <br>
+        Gender:
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br><br>
+        <div class="wrap">
+            <button type="Submit"
+                    onclick="solve()">
+                  <a href="login.html">Login</a>
+            </button>
+               
+        </div>
+    </form>
+    </div>
+</body>
+    
+
